@@ -1,0 +1,8 @@
+FROM mysql
+
+ENV MYSQL_ROOT_PASSWORD="root"
+ENV MYSQL_DATABASE="User_detail"
+
+COPY data.sql /docker-entrypoint-initdb.d/
+
+#docker run -d --name mysql  -p 3306:3306 ishugarg34/mysql-image:tag1

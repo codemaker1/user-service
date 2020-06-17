@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `User_details`;
-USE `User_details`;
+CREATE DATABASE  IF NOT EXISTS `User_detail`;
+USE `User_detail`;
 
 --
 -- Table structure for table `student`
@@ -17,11 +17,11 @@ Create Table User(
      PRIMARY KEY(id)
 );
 
-Insert into user(id,name,age, email)
+Insert into User(id,name,age, email)
  values(1,'ishu',27,'ishugarg34@gmail.com');
- Insert into user(id,name,age, email)
+ Insert into User(id,name,age, email)
  values(2,'paras',26,'geni@gmail.com');
- Insert into user(id,name,age, email)
+ Insert into User(id,name,age, email)
  values(3,'rahul',26,'dubey@gmail.com');
  
  
