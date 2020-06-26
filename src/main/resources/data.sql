@@ -1,9 +1,9 @@
 CREATE DATABASE  IF NOT EXISTS `User_detail`;
 USE `User_detail`;
+--
+----
+---Table structure for table `student`
 
---
--- Table structure for table `student`
---
 
 DROP TABLE IF EXISTS `User`;
 
